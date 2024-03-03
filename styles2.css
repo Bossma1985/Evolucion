@@ -1,0 +1,181 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para el encabezado */
+.header {
+    text-align: center;
+    font-size: 200;
+}
+
+.header h1 {
+    margin: 0;
+    
+}
+
+.header-nav {
+    margin-top: 20px;
+}
+
+.header-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.header-nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.header-nav li:last-child {
+    margin-right: 0;
+}
+
+.header-nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+/* Estilos para las secciones */
+section {
+    background-color: #330000;
+    border: 2px solid #ff4d4d;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #ff4d4d;
+}
+
+section p {
+    font-size: 18px;
+}
+
+/* Estilos para los botones */
+.btn {
+    background-color: #ff4d4d;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #ff3333;
+    color: #000;
+}
+/* Estilos para la sección Acerca del Autor */
+.about-author {
+    background-color: #4d0000;
+    width: 90%;
+    margin: 0 auto 20px;
+}
+
+/* Estilos para la sección Descripción del Libro */
+.description {
+    background-color: #330000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 80%;
+    margin: 0 auto 20px;
+}
+
+/* Estilos para la sección Extractos del Libro */
+.excerpts {
+    background-color: #660000;
+    color: #ffcccc;
+    font-style: italic;
+    width: 85%;
+    margin: 0 auto 20px;
+}
+
+/* Estilos para la sección Beneficios y Objetivos */
+.benefits {
+    background-color: #800000;
+    color: #ffcccc;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+    margin: 0 auto 20px;
+}
+
+/* Estilos para la sección Testimonios y Reseñas */
+.testimonials {
+    background-color: #990000;
+    color: #ffcccc;
+    border: 2px solid #ff9999;
+    width: 85%;
+    margin: 0 auto 20px;
+}
+
+/* Estilos para la sección Preguntas Frecuentes (FAQ) */
+.faq {
+    background-color: #b30000;
+    color: #ffcccc;
+    width: 80%;
+    margin: 0 auto 20px;
+}
+
+/* Estilos para la sección Oferta Especial o Bonificaciones */
+.special-offer {
+    background-color: #cc0000;
+    color: #ffcccc;
+    border: 2px solid #ff9999;
+    width: 85%;
+    margin: 0 auto 20px;
+}
+
+/* Estilos para la sección Formulario de Contacto */
+.contact-form {
+    background-color: #e60000;
+    color: #ffcccc;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 80%;
+    margin: 0 auto 20px;
+}
+
+/* Estilos para la sección Enlaces a Redes Sociales y Contacto */
+.social-media {
+    background-color: #ff0000;
+    color: #ffcccc;
+    border: 2px solid #ff9999;
+    width: 85%;
+    margin: 0 auto 20px;
+}
+
+/* Estilos para la sección Call to Action (Llamada a la Acción) */
+.cta {
+    background-color: #ff3333;
+    color: #ffcccc;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+    margin: 0 auto 20px;
+}
+
+a {
+    color: #d85e5e; /* Cambia este valor al color deseado */
+    text-decoration: none; /* Opcional: para eliminar el subrayado de los enlaces */
+}
