@@ -84,7 +84,7 @@ section p {
     color: #000;
 }
 
-/* Estilos para las secciones individuales */
+/* Estilos para  las secciones individuales */
 .about-author { background-color: #5e0303; width: 90%; }
 .about-author h2 { color: #000000;} /* Cambia este valor al color deseado */
 .description { background-color: #330000; width: 80%; }
