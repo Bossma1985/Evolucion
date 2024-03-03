@@ -94,6 +94,7 @@ section p {
 .faq { background-color: #b30000; width: 80%; }
 .special-offer { background-color: #cc0000; border: 2px solid #ff9999; width: 75%; }
 .contact-form { background-color: #e60000; width: 80%; }
+.contact-form h2 {color: #160b7a;}
 .social-media { background-color: #ff0000; border: 2px solid #ff9999; width: 85%; }
 .cta { background-color: #ff3333; width: 80%; }
 
@@ -104,5 +105,57 @@ a {
 
 a:hover {
     color: #f36b6b; /* Cambia este valor al color deseado */
+}
+
+footer {
+    height: 100px; /* Establece la altura del footer */
+    width: 95%;
+    bottom: 0; /* Lo coloca al final de la ventana del navegador */
+    background-color: #949090; /* Color de fondo */
+    color: #1900ff; /* Color del texto */
+    text-align: center; /* Alineación del texto */
+    padding: 20px; /* Espaciado interno */
+    border-top: 1px solid #666; /* Borde superior */
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin : 0 auto
+}
+
+.custom8 form {
+    background-color: #e7b9b9; /* Color de fondo */
+    color: #333; /* Color del texto */
+}
+
+.custom8 input[type="text"],
+.custom8 input[type="email"],
+.custom8 textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.custom8 input[type="submit"] {
+    background-color: #6e1111; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom8 input[type="submit"]:hover {
+    background-color: #555; /* Cambia de color al pasar el ratón */
+}
+
+.custom8 label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.custom8 input[type="checkbox"] {
+    margin-top: 10px;
 }
 
