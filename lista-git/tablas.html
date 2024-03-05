@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tablascss.css">
+</head>
+<body>
+
+    <header>
+        <h1>LISTA DE COMANDOS PARA GIT</h1>
+    </header>
+
+    <table border>
+    <thead>
+        <tr>
+            <th>Comando</th>
+            <th>Definición</th>
+        </tr>
+    </thead>
+
+    <tbody>
+       
+        <tr>
+            <td>ls</td>
+            <td>Muestra el listado de carpetas en la que te encuentras</td>
+        </tr>
+        <tr>
+            <td>ls -a</td>
+            <td>Muestra el listado de carpetas en la que te encuentras incluyendo archivos ocultos</td>
+        </tr>
+        <tr>
+            <td>pwb</td>
+            <td>Muestra la carpeta en la que te encuentras</td>
+        </tr>
+        <tr>
+            <td>cd</td>
+            <td>Te lleva a la ruta indicada</td>
+        </tr>
+        <tr>
+            <td>cd ..</td>
+            <td>Me retorna una carpeta atrás en la gerarquía</td>
+        </tr>
+        <tr>
+            <td>mkdir</td>
+            <td>Crea una nueva carpeta en dicho directorio (mkdir carpeta1ejemplo)</td>
+        </tr>
+        <tr>
+            <td>rm</td>
+            <td>Borra un archivo (rm "nombrearchivo")</td>
+        </tr>
+        <tr>
+            <td>rm -r</td>
+            <td>Borrar la carpeta (rm -r "carpeta_a_eliminar") dentro de la ruta de la carpeta</td>
+        </tr>
+        <tr>
+            <td>mv</td>
+            <td>cambia el nombre el archivo (mv "archivo1" "archivo2") cambia del archivo1 a archivo2</td>
+        </tr>
+        <tr>
+            <td>cat</td>
+            <td>Muestra el contenido del archivo (cat nombrearcivo) y aparece en la consola</td>
+        </tr>
+        <tr>
+            <td>git help</td>
+            <td>Te muestra toda la ayuda</td>
+        </tr>
+        <tr>
+            <td>git help -a</td>
+            <td>Te hace un listado completo de todos los comandos añadiendo una breve explicación</td>
+        </tr>
+        <tr>
+            <td>git "comando" --help</td>
+            <td>Se abre una página en el navegador explicando el comando seleccionado</td>
+        </tr>
+        <tr>
+            <td>git status</td>
+            <td>Muestra el estado de los archivos des ese repositorio (en verde: actualizados, en rojo: pendiene)</td>
+        </tr>
+        <tr>
+            <td>git status -s</td>
+            <td>Ofrece los datos de Status de forma más reducida</td>
+        </tr>
+        <tr>
+            <td>git log</td>
+            <td>Te muestra el registro de commits con sus comentarios y un identificador único para cada uno</td>
+        </tr>
+        <tr>
+            <td>git log --oneline</td>
+            <td>Lo mismo que el de arriba pero de forma más esquematizada y limpia</td>
+        </tr>
+        <tr>
+            <td>git log --graph</td>
+            <td>Fuorma alternativa de visualizar la cadena de commits realizados</td>
+        </tr>
+        <tr>
+            <td>git init</td>
+            <td>Inicia el proyecto dentro de la carpeta donde lo ejecutas</td>
+        </tr>
+        <tr>
+            <td>git add</td>
+            <td>Añade un archivo seleccionado al repositorio</td>
+        </tr>
+        <tr>
+            <td>git add .</td>
+            <td>Añade todos los archivos de esa carpeta al repositorio</td>
+        </tr>
+        <tr>
+            <td>git branch</td>
+            <td>Nos muestra la rama en la que estamos trabajando</td>
+        </tr>
+        <tr>
+            <td>git checkout -b</td>
+            <td>Crea un rama nueva  (git checkout -b nuevarama) Creará una rama llamada:  nuevarama y te
+                llevará a ella automáticamente al presionar intro</td>
+        </tr>
+        <tr>
+            <td>git checkout</td>
+            <td>Seguido del nombre de la rama a la que quieras acceder te llevará a ella sin crear una nueva / 
+                También te permite navegar entre los distintos commits (git checkout "identificador commit")</td>
+        </tr>
+        <tr>
+            <td>git merge</td>
+            <td>Incluye los cambios de una subrama a la rama principal. Debes estar dentro de la rama principal
+                para que surja efecto (git merge "nombredelarama")</td>
+        </tr>
+        <tr>
+            <td>git diff</td>
+            <td>Te muestra un resumen de los cambios (1º Se aplica el comando, 2º se hacen cambios en los
+                archivos y 3º se vuelve a activar el comando para ver la lista de cambios</td>
+        </tr>
+        <tr>
+            <td>code .</td>
+            <td>Abre VS Code con los archivos de ese directorio</td>
+        </tr>
+        <tr>
+            <td>git commit -m ""</td>
+            <td>Hace una especie de fotografía del estado del proyecto en ese momento. Es indispensable 
+                escribir un comentario entre las comillas</td>
+        </tr>
+        <tr>
+            <td>git commit</td>
+            <td>Lo mismo que el de arriba pero te lo abre en VS Code (añadir comentario, guardar y cerrar VS Code) </td>
+        </tr>
+        <tr>
+            <td>git push</td>
+            <td>Sube los cambios hechos en el repositorio a un servidor en la nube  (GitHub)</td>
+        </tr>
+        <tr>
+            <td>.gitignore</td>
+            <td>Se crea un archivo .gitignore y se guarda el el repositorio, una vez hecho esto solo hay que escribir
+                dentro de dicho archivo los nombres de los archivos que no quieres que aparezcan y si solo escribes
+                la extensión ".txt, .html, .js…" se ignoran todos los de esa extensión. Para ignorar una carpeta
+                hay que escribir su ruta con el / final "carpeta_fotos/"</td>
+        </tr>
+        <tr>
+            <td>git remote add origin</td>
+            <td>Seguido del link que me muestra dentro del repositorio en Git Bash, le dice a git en que repositorio debe subir los cambios realizados. Es como el enlace de comunicación entre local y remoto</td>
+        </tr>
+        <tr>
+            <td>git remote rm origin</td>
+            <td>Te devuelve al estado anterior</td>
+        </tr>
+        <tr>
+            <td>git push -u origin main</td>
+            <td>Push lo sube, -u crea la rama en GitHub, origin es la dirección y master el nombre que le damos</td>
+        </tr>
+        <tr>
+            <td>git reset</td>
+            <td>"Elimina" todos los commits a partir del identificador que le señales (es una operación de riesgo
+                aunque es revertible</td>
+        </tr>
+    </tbody>
+    
+    <tfoot>
+        <tr>
+            <td colspan="2">Contacto: <a href="mailto:rafasimatero@gmail.com"> rafasimaterogmail.com</a></td>
+        </tr>
+    </tfoot>
+
+    </table>
+    
+</body>
+</html>
